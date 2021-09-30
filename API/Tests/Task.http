@@ -1,0 +1,14 @@
+### Cadastrar task
+POST https://localhost:5001/api/task/create
+Content-Type: application/json
+
+{
+    "NomeTask": "Ir no mercado",
+    "Descricao": "Comprar bolacha"
+}
+
+### Listar todas as tasks
+GET https://localhost:5001/api/task/list
+
+### Buscar produto pelo id
+GET https://localhost:5001/api/produto/getbyid/2
